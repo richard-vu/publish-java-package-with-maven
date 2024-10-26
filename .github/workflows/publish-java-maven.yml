@@ -3,7 +3,7 @@ name: Maven Build and Deploy
 on:  
   push:  
     branches:  
-      - main  # chỉnh sửa theo branch bạn muốn deploy  
+      - master  # chỉnh sửa theo branch bạn muốn deploy  
 
 jobs:  
   build:  
