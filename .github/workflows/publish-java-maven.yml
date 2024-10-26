@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to GitHub Packages  
         env:  
           GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}  
-        run: mvn deploy
+        run: mvn deploy -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/richard-vu/publish-java-package-with-maven
